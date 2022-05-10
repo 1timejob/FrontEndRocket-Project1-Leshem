@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    margin: 0%;
+}
+/*header*/
+ul{
+    width: 100%;
+    list-style-type: none;
+    padding: 0 0 0 0;
+    margin: 0 2rem;
+}
+ul li{
+    color: #034667;
+    float:left;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    width: 16%;
+    padding: 5px 0; 
+    text-align: center;
+    height: 40px;
+}
+li button{
+    background: #F49700;
+    /* bt_orange */
+    
+    box-shadow: 3px 5px 16px rgba(219, 138, 7, 0.25);
+    border-radius: 12px; 
+    
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 20px;
+
+}
+/* end of header */
+/*body*/
+body img{
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+ .btn{
+    background-color:#006495;
+    box-shadow: 3px 5px 16px rgba(0, 100, 149, 0.24);
+    border-radius: 16px;
+    position: absolute;
+    Width :172px;
+    Height:56px;
+    left: 23.33%;
+    right: 30%;
+    top: 7.14%;
+    bottom: 7.14%;
+    
+    /* text butt */
+    
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    }
+    .btn p{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    }
+    p #card{
+        /* Choose Your Card */
+    position: absolute;
+    width: 495px;
+    height: 340px;
+    left: 984px;
+    top: 333px;
+
+    /* white */
+    
+    color: #FFFFFF;
+    
+    text-shadow: 6px 10px 4px rgba(0, 0, 0, 0.12);
+    }

@@ -1,0 +1,105 @@
+h1{
+    font-family: Lato;
+font-weight: 500, Medium;
+font-style: normal;
+color: #034667;
+size:14px ; 
+
+
+
+}
+input,select{
+    background-color: #FAFAFA;
+border: 1px solid #9E9E9E;
+border-radius: 4px;
+margin:0 0 0 0 ;
+color:#9E9E9E;
+
+}
+input[type="text"],input[type="date"],select
+{
+    Width:283px;
+    Height:48px;
+}
+
+form{
+    color: #006495
+    ;
+}
+.link{
+    color: #006495;
+}
+#prev{
+    background-color: #E5F4FC;
+}
+.visible{
+   
+    content-visibility: show;
+    visibility: show;
+}
+
+.unvisible{
+    content-visibility:hidden ;
+    visibility: hidden;
+}
+.picture{
+    background-image: url(/images/shop-assistant-talking-to-young-couple-shopping-ki-2022-01-24-23-27-47-utc\ 1.jpg);
+height: 60rem;
+width:fit-content;
+}
+.pictureAsocciation{
+    background-image: url(/images/two-elegant-men-coming-to-fashion-boutique-on-shop-2021-08-29-01-35-41-utc\ 1.png);
+height: 961px;
+}
+
+#row{
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+label{
+    border: none;
+    color: #034667;
+
+}
+.form{
+   
+    padding-right: 5rem;
+}
+#progress{
+    padding-bottom: 2rem;
+
+}
+label{
+    margin-bottom: 0.1rem;
+}
+#prev,#next{
+    border-radius: 6px;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    /* align-items: center; */
+    border: 1px solid #006495;
+
+}
+#next{
+    background-color: #006495
+
+}
+.picture2{
+    background-image: url(/images/black-lady-holding-smartphone-and-credit-card-at-h-2021-08-29-23-01-19-utc\ 1.jpg);
+height: 60rem;
+width:fit-content;
+}
+.picturecor{
+    height: 961px;
+}
+h1{
+    padding-top: 5rem;
+}
+#buttons{
+    padding-top: 4rem;
+}
+#confirm{
+    padding-top: 2rem;
+}

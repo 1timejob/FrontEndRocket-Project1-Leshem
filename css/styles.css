@@ -1,0 +1,89 @@
+/*styling the Home page*/
+body{
+   
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 5rem;
+    font-family: 'Heebo', sans-serif;
+
+}
+a{
+    color:  #034667;  
+}
+.body{
+    position: relative;
+  height: 54rem;
+    background-image: url("/images/confident-afro-guy-preparing-for-a-run-at-studio-2021-08-30-02-22-22-utc\ 1.jpg");
+padding-top: 18rem;
+}
+#card{
+    color: white;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+
+}
+#getstart{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+    background-color: #006495;
+    color: white;
+    border-radius: 16px;
+    line-height: 24px;
+    height: 56px;
+    width: 172px;
+    left: 0px;
+    top: 0px; 
+  
+}
+/*End of Home page*/
+/*Styling the footer*/
+.footer{
+    background-color:#034667;
+    color: white;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#bookmark{
+    padding-top: 2rem;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+#space{
+    padding-top: 2rem;
+}
+.row >i{
+    width:fit-content;
+}
+/*End of Footer*/
+/*navbar*/
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #034667;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    background-color: white;
+}
+.bg-light{
+    background-color: white;   
+}
+#getyourcard{
+    background-color:#F49700;
+    border: none;
+    box-shadow: 3px 5px 16px rgba(219, 138, 7, 0.25);
+    border-radius: 12px;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+
+}
+.navbar{
+    padding-top: 0rem;
+   padding: 0rem 0rem;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+/*navbar ending*/

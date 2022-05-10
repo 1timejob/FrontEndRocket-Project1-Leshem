@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Lato&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/step3.css">
+    <title>Payment Mode</title>
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-center navbar-expand-lg navbar-light  fixed-top " style=" border-bottom: 1px solid gray;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/singlepage.html"><img src="/images/img_amex.png"></a>
+          <button class="navbar-toggler order-sm-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" href="#">My account</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#">Cards</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle">Contact</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+          <a href="/html/step0.html" ><button class="button  navbar-btn navbar-right order-sm-1" type="button" id="getyourcard" >Get Your Card</button></a>
+    
+        </div>
+      </nav>
+      
+ <div class="container-fluid" style="background-color:#E5F4FC;">
+    <div class="row">
+<!--form-->
+<div class="col-lg-6 col-sm-12 order-sm-2 order-lg-1"  style="padding: 3rem 3rem;">
+    <div class="container">
+        <h5>PAYMENT MODE</h5>
+     <div  style="padding-bottom:1rem ;">
+        <i class="bi bi-circle-fill" ></i>
+        <i class="bi bi-circle-fill"></i>
+        <i class="bi bi-arrow-right-circle-fill"></i>
+        <!--previous information-->
+       </div>
+        <div class="row border border-dark">
+<h4 id="fontLato" style="padding-top:1rem ;"  id="row">Previous Information</h4>
+<div class="row">
+<label class="col-md-6 col-sm-12"><b>Name:</b></label>
+<label class="col-md-6 col-sm-12"> <b>Address:</b></label>
+</div>
+<div class="row" id="row">
+<label class="col-md-6 col-sm-12">Charee Troy</label>
+<label class="col-md-6 col-sm-12">Pinsker 10, Paris 612345, France</label>
+</div>
+<div class="row">
+<label class="col-md-6 col-sm-12"><b>IBAN:</b></label>
+<label class="col-md-6 col-sm-12"><b>Card type:</b></label>
+</div>
+<div class="row"  id="row">
+<label class="col-md-6 col-sm-12">FR</label>
+<label class="col-md-6 col-sm-12">Silver AMEX International</label>
+</div>
+<div class="row">
+<label class="col-md-6 col-sm-12"><b>Currency:</b></label>
+</div>
+<div class="row"  id="row">
+<label class="col-md-6 col-sm-12">Eur</label>
+</div>
+<div class="row"  id="row">
+<label class="col-6"><b>1 x card (annual fees)</b></label>
+<label class="col-2 offset-4">29.90 €</label>
+</div>
+<!--Payment Mode2-->
+<!-- <div class="paymentmode2">
+
+<div class="row">
+<div class="col-1"><i class="bi bi-x-circle" style="color: red;"></i></div>
+<div class="col-5"><label>First deposit</label></div>
+<div class="col-2 offset-4" ><label>30 €</label></div>
+</div>
+<div class="row">
+<div class="col-4"><label><b>Second Card IBAN:</b></label></div>
+<div class="col-4"><label><b>Card type:</b></label></div>
+</div>
+<div class="row">
+<div class="col-4"><label>UK</label></div>
+<div class="col-4"><label>Silver AMEX International</label></div>
+</div>
+<div class="row">
+<label class="col-6"><b>Currency:</b></label>
+</div>
+<div class="row">
+<label class="col-6">Eur</label>
+</div>
+<div class="row">
+<div class="col-1"><i class="bi bi-x-circle" style="color: red;"></i></div>
+<div class="col-6"><label>1 x card (annual fees)</label></div>
+<div class="col-2 offset-3" ><label>29.9 €</label></div>
+</div>
+<div class="row">
+<div class="col-1"><i class="bi bi-x-circle" style="color: red;"></i></div>
+<div class="col-5"><label>First deposit</label></div>
+<div class="col-2 offset-4" ><label>50 €</label></div>
+</div>
+<div class="row">
+<div class="col-6"><label><b>For professional account:</b></label></div>
+<div class="col-2 offset-4"><label>+8 €</label></div>
+</div>
+<div class="row">
+<div class="col-1"><i class="bi bi-arrow-repeat"></i></div>
+<div class="col-3"><label>Discount coupon</label></div>
+<div class="col-2"><input type="number" placeholder="37798"></div>
+<div class="col-2 offset-4" ><label style="color: rgb(0, 255, 0);">- 20 €</label></div>
+</div>
+</div> -->
+<!--Payment Mode2 Ending here, Have to cancel the next div of copun-->
+<!--Payment Mode3-->
+<!-- <div class="container-fluid">
+<h4 id="fontLato" style="padding-top:1rem ;"  id="row">Previous Information</h4>
+<div class="row">
+<label class="col-md-6 col-sm-12"><b>Name:</b></label>
+<label class="col-md-6 col-sm-12"> <b>Address:</b></label>
+</div>
+<div class="row" id="row">
+<label class="col-md-6 col-sm-12">Charee Troy</label>
+<label class="col-md-6 col-sm-12">Pinsker 10, Paris 612345, France</label>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#1</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#2</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#3</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#4</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#5</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#6</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#7</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#8</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+  <i class="bi bi-x-circle col-1" style="color: red;"></i>
+  <label class="col-3">Card#9</label>
+  <label class="col-6">Platinum</label>
+  <i class="bi bi-chevron-down col-2" ></i>
+</div>
+<div class="row" id="row" style="padding-top: 1rem;margin-left:2rem">
+  <div class="col-6"><label><b>For professional account:</b></label></div>
+  <div class="col-2 offset-4"><label>+8 €</label></div>
+  </div>
+  <div class="row" id="row">
+  <div class="col-1"><i class="bi bi-arrow-repeat"></i></div>
+  <div class="col-3"><label>Discount coupon</label></div>
+  <div class="col-2"><input type="number" placeholder="37798"></div>
+  <div class="col-2 offset-4" ><label style="color: rgb(0, 255, 0);">- 20 €</label></div>
+  </div>
+</div> -->
+<!--paymentMode3 Ending here-->
+<!--Payment Mode4-->
+<!-- <div class="container-fluid">
+  <h4 id="fontLato" style="padding-top:1rem ;"  id="row">Previous Information</h4>
+  <div class="row">
+  <label class="col-md-6 col-sm-12"><b>Name:</b></label>
+  <label class="col-md-6 col-sm-12"> <b>Address:</b></label>
+  </div>
+  <div class="row" id="row">
+  <label class="col-md-6 col-sm-12">Charee Troy</label>
+  <label class="col-md-6 col-sm-12">Pinsker 10, Paris 612345, France</label>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:200px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#1</label>
+    <label class="col-6">Silver AMEX International</label>
+    <i class="bi bi-chevron-up col-2" ></i>
+    <div class="row">
+      <label class="col-md-6 col-sm-12"><b>Card IBAN:</b></label>
+      <label class="col-md-6 col-sm-12"><b>Card type:</b></label>
+      </div>
+      <div class="row" >
+      <label class="col-md-6 col-sm-12">UK</label>
+      <label class="col-md-6 col-sm-12">Silver AMEX International</label>
+      </div>
+      <div class="row">
+        <label class="col-md-6 col-sm-12"><b>Currency:</b></label>
+        </div>
+        <div class="row"  id="row">
+        <label class="col-md-6 col-sm-12">Eur</label>
+        </div>
+        <div class="row"  id="row">
+        <label class="col-6"><b>1 x card (annual fees)</b></label>
+        <label class="col-2 offset-4">29.90 €</label>
+        </div>
+        <div class="row">
+          <div class="col-1"><i class="bi bi-x-circle" style="color: red;"></i></div>
+          <div class="col-5"><label>First deposit</label></div>
+          <div class="col-2 offset-4" ><label>50 €</label></div>
+          </div>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#2</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#3</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#4</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#5</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#6</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#7</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#8</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" style="border: 1px solid #AFAFAF;width:536px;height:50px;margin-left: 2rem;">
+    <i class="bi bi-x-circle col-1" style="color: red;"></i>
+    <label class="col-3">Card#9</label>
+    <label class="col-6">Platinum</label>
+    <i class="bi bi-chevron-down col-2" ></i>
+  </div>
+  <div class="row" id="row" style="padding-top: 1rem;margin-left:2rem">
+    <div class="col-6"><label><b>For professional account:</b></label></div>
+    <div class="col-2 offset-4"><label>+8 €</label></div>
+    </div>
+    <div class="row" id="row">
+    <div class="col-1"><i class="bi bi-arrow-repeat"></i></div>
+    <div class="col-3"><label>Discount coupon</label></div>
+    <div class="col-2"><input type="number" placeholder="37798"></div>
+    <div class="col-2 offset-4" ><label style="color: rgb(0, 255, 0);">- 20 €</label></div>
+    </div>
+  </div> -->
+  <!--paymentMode4 Ending here-->
+<div class="row"  id="row">
+<label class="col-2" id="fontLato">COUPON</label>
+<input class="col-4" type="number" placeholder="Write the coupon code here..." id="copun"></input>
+<button class="col-3 offset-md-1 btn" id="validate">Validate</button>
+</div>
+<b><hr/></b>
+<div class="row">
+<label class="col-6" id="fontLato">Total:</label>
+<label class="col-6">29.90 €</label>
+</div>
+
+        </div>
+        <!--payment method icons-->
+        <div class="row">
+            <div class="row" style="padding-bottom: 1.5rem;padding-top: 1.5rem;background-color: #E5F4FC;">
+                <div class=" col-md-6 col-sm-6" ><img src="/images/Frame 22.png"/></div>
+                <div class="col-md-6 col-sm-6" ><img src="/images/Frame 21.png"/></div>
+            </div>
+            <div class="row" style="padding-bottom: 1.5rem;">
+                <div class="col-md-6 col-sm-6" ><img src="/images/Frame 23.png"/></div>
+                <div class="col-md-6 col-sm-6" ><img src="/images/Frame 20.png"/></div>
+            </div>
+            <div class="row" style="padding-bottom: 1.5rem;">
+                <div class="col-md-6 col-sm-6" ><img src="/images/Frame 18.png"/></div>
+                <div class="col-md-6 col-sm-6" ><img src="/images/Frame 19.png"/></div>
+            </div>
+        </div>
+        <div class="row" style="padding-bottom: 3rem;">
+            <div class="col-md-6 col-sm-6" ><img src="/images/Group 56.png"></div>
+        </div>
+        <div class="row">
+            <a href="/html/step2.html" class="btn  col-sm-4 col-md-4" id="prev"><i class="bi bi-arrow-left"></i> Previous</a>
+            <a href="#" class="btn  col-sm-4 col-md-4 offset-sm-2 offset-md-6">Continue <i class="bi bi-arrow-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<!--picture-->
+<div class="col-lg-6 col-sm-12 order-sm-1 order-lg-2" id="picture"></div>
+</div> 
+        </div>
+        </div>
+      <!--footer-->
+          <div class="row footer">
+
+        <!-- <img src="/images/footer 2.png"/> -->
+        <div class="col-md-3 col-sm-12" ><img src="/images/img_amex.png"></div>
+        <div class="col-md-3 col-sm-6" id="space">
+        <div class="row"><br/><b>Terms</b></div>
+        <div class="row"><br/><i class="bi bi-chevron-right"></i>General Terms</div>
+        <div class="row"><i class="bi bi-chevron-right"></i>Legal Notice</div>
+        <div class="row"><i class="bi bi-chevron-right"></i>Privacy Policy</div>
+        </div>
+        <div class="col-md-3 col-sm-6" id="space">
+        <div class="row"><br/><b>Why Amex?</b></div>
+        <div class="row"><br/><i class="bi bi-chevron-right"></i>Why Amex?</div>
+        <div class="row"><i class="bi bi-chevron-right"></i>IBAN and RIB</div>
+        <div class="row"><i class="bi bi-chevron-right"></i>3D Secure</div>
+        </div>
+        <div class="col-md-3 col-sm-12" id="space">
+        <div class="row"><br/><b>The AMEX Card</b></div>
+        <div class="row"><i class="bi bi-chevron-right"></i>What's a prepaid card?</div>
+        <div class="row"><i class="bi bi-chevron-right"></i>Activate your card</div>
+        <div class="row"><i class="bi bi-chevron-right"></i>Security</div>
+        </div>
+        
+        <div class="row" id="bookmark"><div class="col-md-5 offset-md-3 col-sm-6 ">All other trademarks and logos mentioned in this website are used for identification purposes only and remain the exclusive property of their respective owners.</div></div>
+        
+</body>
+</html>

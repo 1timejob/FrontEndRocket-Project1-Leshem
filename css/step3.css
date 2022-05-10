@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    color:  #006495;
+    margin: 0 0;
+}
+
+.border{
+    border-color: #034667    ;
+    border-radius: 6px;
+border-width: 15px;
+background-color: white;
+
+}
+.btn{
+    color: white;
+    background-color:#034667   ;
+    border-radius: 6px;
+  width: 150px;
+}
+#fontLato{
+    font-family:Lato;
+}
+#validate{
+    background-color:#AFAFAF;
+    ;
+}
+#prev{
+    color: #034667;
+    background-color:#E5F4FC;
+    border:1px solid #034667;
+
+}
+.row{
+    margin-right: 0;
+}
+#row{
+    padding-bottom: 1rem;
+}
+#picture{
+   background-repeat: no-repeat;
+    background-image: url(/images/energetic-positive-afro-american-lady-dances-with-2021-09-02-14-29-01-utc\ 1.jpg);
+height: 1161px;
+}
+#copun{
+    background: #FAFAFA;
+border: 1px solid #9E9E9E;
+border-radius: 5px;
+Width:283px; 
+
+Height: 48px;
+
+}

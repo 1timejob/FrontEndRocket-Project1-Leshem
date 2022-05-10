@@ -1,0 +1,32 @@
+body{
+    background-color:#E5F4FC;
+}
+h1{
+color: #006495;
+text-align: center;
+}
+span{
+    text-align: center;
+}
+.card{
+    float: left;
+    margin: 1rem; 
+    border-radius:20px;
+    color: #034667;
+}
+#note{
+    text-align: center;
+}
+.first{
+    padding-top: 5rem;
+}
+/* #cardBoy{
+    box-sizing: unset;
+} */
+ .card-img-top {
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+ }
+ .cards{
+     padding-bottom: 5rem;
+ }

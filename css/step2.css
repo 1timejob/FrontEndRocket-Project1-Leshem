@@ -1,0 +1,66 @@
+body{
+    color: #006495;
+    font-family: Lato;
+    font-style: normal;
+font-weight: 500,Medium;
+}
+.picture{
+    background-image: url(/images/shop-assistant-talking-to-young-couple-shopping-ki-2022-01-24-23-27-47-utc\ 1.jpg);
+background-repeat: no-repeat;
+height: 60rem;}
+#prev{
+    background-color: #E5F4FC;
+}
+.unVisible{
+    content-visibility: hidden;
+    visibility: hidden;
+}
+.Visible{
+    content-visibility:show;
+ visibility: show;
+}
+
+/*Styling the form*/
+select{
+    background-color: #FAFAFA;
+border: 1px solid #9E9E9E;
+border-radius: 5px;
+margin:0 0 0 0 ;
+margin-bottom: 1.5rem;
+height: 2rem;
+}
+option{
+    background-color: white;
+    color: #006495;
+}
+input{
+    background-color: #FAFAFA;
+border: 1px solid #9E9E9E;
+border-radius: 5px;
+margin:0 0 0 0 ;
+margin-bottom: 1.5rem;
+}
+#i{
+    color: #006495;
+}
+input[type="text"],input[type="date"],input[type="email"],input[type="number"],select
+{
+    Width:283px;
+    Height:48px;
+}
+#adress{
+    Width:100px;
+}
+#prev,#next{
+    border-radius: 6px;
+    height: 3rem;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    /* align-items: center; */
+    border: 1px solid #006495;
+    width: 32%;
+}
+#buttons{
+    padding-bottom: 2rem;
+}
