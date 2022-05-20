@@ -43,12 +43,12 @@ form{
     visibility: hidden;
 }
 .picture{
-    background-image: url(./images/shop-assistant-talking-to-young-couple-shopping-ki-2022-01-24-23-27-47-utc\ 1.jpg);
+    background-image: url(../images/shop-assistant-talking-to-young-couple-shopping-ki-2022-01-24-23-27-47-utc\ 1.jpg);
 height: 60rem;
 width:fit-content;
 }
 .pictureAsocciation{
-    background-image: url(./images/two-elegant-men-coming-to-fashion-boutique-on-shop-2021-08-29-01-35-41-utc\ 1.png);
+    background-image: url(../images/two-elegant-men-coming-to-fashion-boutique-on-shop-2021-08-29-01-35-41-utc\ 1.png);
 height: 961px;
 }
 
@@ -87,7 +87,7 @@ label{
 
 }
 .picture2{
-    background-image: url(./images/black-lady-holding-smartphone-and-credit-card-at-h-2021-08-29-23-01-19-utc\ 1.jpg);
+    background-image: url(../images/black-lady-holding-smartphone-and-credit-card-at-h-2021-08-29-23-01-19-utc\ 1.jpg);
 height: 60rem;
 width:fit-content;
 }
